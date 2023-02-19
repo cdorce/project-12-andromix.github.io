@@ -70,10 +70,10 @@
 
 **/
 
-.white-btn,
-.dark-btn{
-    color: var(--color-dark-100);
-    background-color: var(--color-white-100);
+.orange-btn,
+.blue-btn{
+    color: var(--color-blue-100);
+    background-color: var(--color-orange-75);
     cursor: pointer;
     font-size: var(--h5);
     font-family: var(--font-2);
@@ -84,9 +84,9 @@
 }
 
 
-.dark-btn {
-    color:var(--color-white-100);
-    background-color: var(--color-dark-100);
+.blue-btn {
+    color:var(--color-orange-100);
+    background-color: var(--color-blue-100);
 }
 
 
@@ -133,7 +133,7 @@
 }
 .container {
     max-width: 1140px;
-    width: 90%;
+    width: 95%;
     margin: auto;
     
 }
