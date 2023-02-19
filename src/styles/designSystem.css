@@ -42,9 +42,9 @@
     --color-blue-25:rgba(27, 89, 165, 0.25);
 
     --color-orange-100:#e2822b;
-    --color-orange-100:rgba(226, 130, 43, 0.75);
-    --color-orange-100:rgba(226, 130, 43, 0.50);
-    --color-orange-100:rgba(226, 130, 43, 0.25);
+    --color-orange-75:rgba(226, 130, 43, 0.75);
+    --color-orange-50:rgba(226, 130, 43, 0.50);
+    --color-orange-25:rgba(226, 130, 43, 0.25);
 
     --shadow-1: 3px 4px 12px 1px rgba(0,0,0, 0.25);
 }
@@ -223,7 +223,10 @@
 
 **/
 
-
+.hero {
+    background-color: var(--color-dark-25);
+    box-shadow: 0.2px 5px 20px rgb(97, 95, 95);
+}
 
 
 
@@ -302,8 +305,14 @@
         justify-content: center;
         align-items: center;
         gap: 40px;
+        
 
         
+    }
+
+    [class^="navbar__menu--"] {
+        color: var(--color-orange-100);
+
     }
 
     .navbar__menu.active {
