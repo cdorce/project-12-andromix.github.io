@@ -37,6 +37,8 @@
     display: flex;
     flex-wrap: wrap;
     font-family: var(--font-2);
+    
+    
 }
 
 .section-two::before {
@@ -70,6 +72,7 @@
 
 .section-two .section-2-text p {
     margin: 0 ;
+    overflow: hidden;
 
 }
 
@@ -81,6 +84,38 @@
     line-height: 45px;
     display: none;
 
+}
+
+.section-two .section-2-text p span.text-in {
+    display: block;
+    animation: textIn .5s ease;
+
+}
+
+.section-two .section-2-text p span.text-out {
+    animation: textOut .5s ease;
+
+}
+
+@keyframes textIn{
+    0% {
+        transform: translateY(100%);
+    }
+
+    100% {
+        transform: translateY(0%);
+    }
+}
+
+
+@keyframes textOut{
+    0% {
+        transform: translateY(0%);
+    }
+
+    100% {
+        transform: translateY(-100%);
+    }
 }
 
 
