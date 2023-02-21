@@ -80,6 +80,7 @@
     border: none;
     border-radius: 8px;
     padding: 10px 40px;
+    
 
 }
 
@@ -87,6 +88,7 @@
 .blue-btn {
     color:var(--color-orange-100);
     background-color: var(--color-blue-100);
+    
 }
 
 
@@ -227,7 +229,6 @@
     background-color: var(--color-dark-25);
     box-shadow: 0.2px 5px 20px rgb(97, 95, 95);
 }
-
 
 
 
