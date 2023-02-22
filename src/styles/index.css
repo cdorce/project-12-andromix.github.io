@@ -141,7 +141,12 @@
   padding: 30px 25px;
   align-items: center;
   border-radius: 20px;
-  box-shadow:2px 2px 2px 2px rgba(0, 0, 0, 0.2) ;
+ 
+
+}
+
+[class^="sectionThree__cards--"]:hover {
+    box-shadow:2px 2px 2px 2px rgba(73, 72, 72, 0.2) ;
 
 }
 
@@ -172,6 +177,8 @@
 
   /*SECTION FOUR*/
 
+
+  
   .sectionFour {
     display: flex;
     flex-direction: column;
@@ -179,12 +186,20 @@
     margin: 35px 0px;
   }
 
+
+.sectionFour--cards {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
   .sectionFour__text {
-    margin-bottom: 30px;
+    margin-bottom: 40px;
+    font-weight: bolder;
+    color: var(--color-blue-100);
   }
 
-
-  .flip-box--1 {
+  
+ [class^="flip-box--"] {
     background-color: transparent;
     width: 300px;
     height: 200px;
@@ -192,7 +207,7 @@
     
 
   }
-.flip-box--1:hover .flip-box-inner {
+  [class^="flip-box--"]:hover .flip-box-inner {
     transform: rotateY(180deg);
 }
 
