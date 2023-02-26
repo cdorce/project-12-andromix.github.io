@@ -185,8 +185,9 @@
     align-items: center;
     box-shadow: 0.2px 5px 20px rgb(97, 95, 95);
     width: 100%;
-   
     margin-bottom: 60px;
+    padding-top: 70px;
+    height: 50vh;
 
     
   }
@@ -271,6 +272,8 @@
 /*SECTION Five*/
 
 
+
+
 .sectionFive_right {
     font-family: var(--font-2);
     margin: auto;
@@ -319,8 +322,11 @@
 */
 
 
-@media (max-width:1200px) {
+@media (max-width:1024px) {
 
+    .sectionThree__cards {
+        grid-template-columns: repeat(2, 1fr);
+    }
 
 
     
@@ -360,7 +366,9 @@
     }
 
     .sectionThree__cards {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(2, 0.7fr);
+        padding: 10px 35px;
+       
     }
 
   
