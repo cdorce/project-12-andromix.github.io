@@ -16,8 +16,13 @@
 
 
 .sectionOne img {
+    background-color: rgb(255, 136, 0);
+    border-radius:41% 59% 70% 30% / 37% 41% 59% 63% ;
 
-    border-bottom: 3px solid rgb(219, 212, 212);
+}
+
+.sectionOne img:hover {
+    border-radius:67% 33% 81% 19% / 47% 52% 48% 53%  ;
 
 }
 
@@ -273,7 +278,7 @@
 
 
 
-
+ 
 .sectionFive_right {
     font-family: var(--font-2);
     margin: auto;
